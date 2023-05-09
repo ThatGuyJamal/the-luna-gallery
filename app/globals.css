@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+:root {
+  color-scheme: dark light;
+
+  /* --dark-bg: #1d1d1d;
+  --dark-text: #FFFFFF;
+  --light-bg: #FFFFFF;
+  --light-text: #1d1d1d; */
+  
+  --dark-bg: #1d1d1d;
+  --dark-text: #FFFFFF;
+  --light-bg: #ffe1fa;
+  --light-text: #1d1d1d;
+
+  --bg-color: var(--light-bg);
+  --text-color: var(--light-text);
+  --niamey-color: #ec25cb;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+body.dark-mode {
+  --bg-color: var(--dark-bg);
+  --text-color: var(--dark-text);
+}
+
+.font-bruno {
+  font-family: 'Bruno Ace SC', cursive;
+}
