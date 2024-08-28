@@ -23,7 +23,7 @@ const Footer: FC<FooterProps> = ({}) => {
 						href="https://www.instagram.com/codingwithjamal/"
 						target="_blank"
 						className="text-niamey-purple hover:text-niamey-pink">
-						ThatGuyJamal
+						Jamal
 					</a>{" "}
 					&{" "}
 					<a
