@@ -20,7 +20,7 @@ const Footer: FC<FooterProps> = ({}) => {
 				<p className="text-lg text-center">
 					Created by{" "}
 					<a
-						href="https://www.instagram.com/thatguy.jamal/"
+						href="https://www.instagram.com/codingwithjamal/"
 						target="_blank"
 						className="text-niamey-purple hover:text-niamey-pink">
 						ThatGuyJamal
